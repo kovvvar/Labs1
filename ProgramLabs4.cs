@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -393,7 +393,7 @@ namespace edu_simple
             i1.Subjects.AddRange(new[] { "Программирование", "Математика" });
             var c1 = new Course(1);
             var g1 = new Group("ФИ22");
-            var s1 = new Student("S001", "Иванов Иван");
+            var s1 = new Student("S001", "Сильвестр Встоловой");
             s1.Marks["Программирование"] = 5;
             s1.Marks["Математика"] = 5;
             var s2 = new Student("S002", "Кай Шик");
